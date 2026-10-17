@@ -34,12 +34,11 @@ System- und Infrastruktur-Entwickler mit Fokus auf Virtualisierung, Netzwerk-Aut
 ## `~/system`
 
 ```ansi
-[32m         .:'[0m            [1;30m      .--.      [0m   [1;32mhannes[0m@[1;32mhomelab[0m
-[32m      __ :'__[0m           [1;30m     |[0m[37mo[33m_[37mo[1;30m |     [0m   [1;30m──────────────────────────────[0m
-[33m   .'`  `-'  ``.[0m        [1;30m     |[0m[33m:\_/[1;30m |     [0m   [1;36mOS[0m          Linux · macOS / iOS
-[31m  :          .-'[0m        [1;30m    /[0m[37m/   \ [1;30m\    [0m   [1;36mHypervisor[0m  Proxmox VE
-[31m  :         :[0m           [1;30m   ([0m[37m|     | [1;30m)   [0m   [1;36mFocus[0m       Infrastructure & Networking
-[35m   :         `-;[0m        [33m  /'\_   _/`\   [0m   [1;36mServices[0m    Self-hosted · Docker
-[34m    `.__.-.__.'[0m         [33m  \___)=(___/   [0m   [1;36mDev[0m         Python · Node.js · Swift
-                                           [1;36mStatus[0m      Always learning
-                                           [31m━━━[33m━━━[32m━━━[36m━━━[34m━━━[35m━━━[0m
+[1;32mhannes[0m@[1;32mhomelab[0m
+[1;30m──────────────────────────────[0m
+[1;36mOS[0m          Linux · macOS / iOS
+[1;36mHypervisor[0m  Proxmox VE
+[1;36mFocus[0m       Infrastructure & Networking
+[1;36mServices[0m    Self-hosted · Docker
+[1;36mDev[0m         Python · Node.js · Swift
+[1;36mStatus[0m      Always learning

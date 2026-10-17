@@ -33,6 +33,7 @@ Mein Homelab basiert auf einem 2-Node Proxmox VE Cluster mit nativer PBS-Dedupli
 | 🤖 [**`homelab-iac`**](https://github.com/Hannes-frbg/homelab-iac) | Public | **Infrastructure as Code:** Ansible Playbooks & Terraform Module für Proxmox VE |
 | 🛡️ [**`auth-portal`**](https://github.com/Hannes-frbg/auth-portal) | Public | **Security Gateway:** Eigenes Node.js 2FA-Portal (TOTP / Google Authenticator) mit Cloudflare Tunnel |
 | 📊 [**`homelab-monitoring`**](https://github.com/Hannes-frbg/homelab-monitoring) | Public | **Observability Stack:** Prometheus, Grafana, Node Exporter & Proxmox Metrics |
+| 🚴‍♂️ [**strava-gpx-sync**](https://github.com/Hannes-frbg/strava-gpx-sync) | Public | **AI Cycling Coach & MCP Server:** Strava GPX Sync, FastMCP, Virtual Power & RAG-Analyse |
 | 🔒 [**`homelab-configs`**](https://github.com/Hannes-frbg/homelab-configs) | Private | **Automated GitOps Sync:** Nächtliche Sicherung & automatische Secret-Bereinigung via systemd |
 
 ---

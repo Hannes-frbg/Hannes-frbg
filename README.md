@@ -4,7 +4,14 @@
 
 **Systems Engineering · Homelab Architecture · Linux**
 
-Linux · Virtualization · Networking
+<p>
+  <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white" alt="Proxmox">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
+</p>
 
 [GitHub](https://github.com/Hannes-frbg) · [Email](mailto:info@ewigetiomate.de)
 
@@ -19,29 +26,9 @@ System- und Infrastruktur-Entwickler mit Fokus auf Virtualisierung, Netzwerk-Aut
 ## `~/system`
 
 ```text
-OS           Linux
-Hypervisor   Proxmox VE
-Focus        Infrastructure
-Networking   Self-hosted
-Development  Python · Node.js
-Status       Always learning
-```
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Hannes-frbg&show_icons=true&hide=stars,prs,issues,contribs&hide_rank=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9f45b&icon_color=c9f45b&text_color=c9d1d9" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hannes-frbg&layout=compact&langs_count=6&hide_border=true&theme=github_dark&bg_color=00000000&title_color=c9f45b&text_color=c9d1d9" alt="Top programming languages" />
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Hannes-frbg&theme=github-dark-blue&hide_border=true&background=00000000&ring=c9f45b&fire=c9f45b&currStreakLabel=c9f45b" alt="GitHub contribution streak" />
-
-</div>
-
----
-
-<div align="center">
-
-`Build` · `Learn` · `Improve` · `Repeat`
-
-</div>
+OS          Linux
+Hypervisor  Proxmox VE
+Focus       Infrastructure
+Networking  Self-hosted
+Development Python · Node.js
+Status      Always learning

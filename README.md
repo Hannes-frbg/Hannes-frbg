@@ -1,65 +1,82 @@
 # Hannes Schuler
 
-**Systems Engineering · Homelab Infrastructure · Linux**
-
-Building, self-hosting and experimenting with infrastructure — from virtualization and storage to networking and secure service deployment.
-
-[GitHub](https://github.com/Hannes-frbg) · [Email](mailto:info@ewigetiomate.de)
-
----
-
-### `$ whoami`
-
-I'm interested in the engineering behind reliable infrastructure: how systems are virtualized, connected, secured and operated.
-
-My focus is on hands-on experimentation with Linux, Proxmox VE, networking, storage and self-hosted services.
-
-I prefer understanding the entire stack — from physical hardware to the services running on top of it.
-
-### `$ cat infrastructure.yml`
-
-| Layer | Technologies |
-|---|---|
-| Virtualization | Proxmox VE, KVM, QEMU |
-| Operating Systems | Linux, Windows |
-| Storage & Backup | ZFS, Proxmox Backup Server |
-| Networking | VLANs, Reverse Proxies, Cloudflare Tunnels |
-| Containers | Docker |
-| Automation & Security | Python, Node.js, TOTP |
-
-### `$ neofetch`
-
-```text
-       .--.          HANNES@HOMELAB
-      |o_o |         ----------------
-      |:_/ |         OS       Linux
-     //   \ \        Hypervisor Proxmox VE
-    (|     | )       Focus    Infrastructure
-   /'\_   _/`\       Network  Self-hosted
-   \___)=(___/       Status   Always learning
-```
-
-### `$ ./explore-projects.sh`
-
-I use my homelab as a practical environment for testing infrastructure concepts, deploying services and learning how systems behave under real workloads.
-
-- **Virtualization** — Running and managing virtual machines and isolated services.
-- **Storage & Backups** — Exploring ZFS, backup workflows and recovery strategies.
-- **Networking & Security** — Experimenting with secure access, reverse proxies and network segmentation.
-- **Self-hosting** — Deploying and maintaining services on infrastructure I control.
-
-### `$ git log --oneline`
-
-I’m working towards building a more active public development history, documenting useful experiments and publishing projects that others can learn from.
-
-Progress over hype. Working systems over buzzwords.
-
----
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hannes-frbg/Hannes-frbg/output/github-snake-dark.svg" alt="GitHub contribution snake" />
+  <samp>Systems Engineering · Infrastructure · App Development</samp>
 </p>
 
 <p align="center">
-  <sub>Built with curiosity. Operated hands-on.</sub>
+  <a href="https://github.com/Hannes-frbg">GitHub</a> ·
+  <a href="mailto:info@ewigetiomate.de">Email</a>
+</p>
+
+---
+
+### `~/about`
+
+Systems, infrastructure and software — built hands-on.
+
+I experiment with Linux, Proxmox VE, virtualization, networking and self-hosted services. I also explore app development for Apple platforms, including macOS, iOS and iPadOS.
+
+### `~/system`
+
+<table>
+<tr>
+<td width="50%">
+
+**Linux / Homelab**
+
+```ansi
+[32m       .--.[0m
+[32m      |[0m  [37mo_o[0m [32m|[0m
+[32m      |[0m  [37m:_/[0m [32m|[0m
+[32m     //   \ \[0m
+[32m    (|     | )[0m
+[32m   /'\_   _/`\[0m
+[32m   \___)=(___/[0m
+```
+
+</td>
+<td width="50%">
+
+**Apple / App Development**
+
+```text
+       .-""""-.
+     .'       '.
+    /             \
+   |   macOS      |
+   |   iOS        |
+    \   iPadOS   /
+     '.         .'
+       '-.....-'
+```
+
+</td>
+</tr>
+</table>
+
+| System | Configuration |
+|:--|:--|
+| OS | Linux |
+| Hypervisor | Proxmox VE |
+| Focus | Infrastructure |
+| Networking | Self-hosted |
+| Development | Python · Node.js · Apple platforms |
+| Status | Always learning |
+
+### `~/github`
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hannes-frbg&show_icons=true&hide=stars,prs,issues,contribs&hide_rank=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9" height="150" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hannes-frbg&layout=compact&langs_count=6&hide_border=true&theme=github_dark&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9" height="150" alt="Most used programming languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hannes-frbg&theme=github-dark-blue&hide_border=true&background=00000000&ring=3fb950&fire=3fb950&currStreakLabel=58a6ff" width="70%" alt="GitHub contribution streak" />
+</p>
+
+---
+
+<p align="center">
+  <samp>Build · Learn · Improve · Repeat</samp>
 </p>

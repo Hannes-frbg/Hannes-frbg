@@ -40,7 +40,7 @@ System- und Infrastruktur-Entwickler mit Fokus auf Virtualisierung, Netzwerk-Aut
 
 ---
 
-<!-- Contribution Snake Animation (Dezent & Clean) -->
+<!-- Contribution Snake Animation -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hannes-frbg/Hannes-frbg/output/github-contribution-grid-snake-dark.svg">

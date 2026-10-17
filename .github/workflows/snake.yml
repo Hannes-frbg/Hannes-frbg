@@ -1,22 +1,39 @@
-name: generate animation
+name: Update Snake & Age
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Läuft automatisch jeden Tag um Mitternacht
+  workflow_dispatch:     # Erlaubt manuelles Starten per Klick
   push:
     branches:
       - main
 
 jobs:
-  generate:
+  update:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Auto-Update Age in README
+        env:
+          BIRTHDAY: "2010-12-26"
+        run: |
+          AGE=$(python3 -c "from datetime import date; b=date.fromisoformat('$BIRTHDAY'); t=date.today(); print(t.year - b.year - ((t.month, t.day) < (b.month, b.day)))")
+          sed -i "s/<!-- AGE -->[0-9]*<!-- \/AGE -->/<!-- AGE -->$AGE<!-- \/AGE -->/g" README.md
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update age to $AGE"
+            git push
+          fi
+
+      - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -24,10 +41,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push Snake SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

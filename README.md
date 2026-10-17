@@ -1,45 +1,65 @@
-<h1 align="center">Hannes Schuler</h1>
-<p align="center">
-  <em>Homelab Architecture & Systems Engineering</em>
-</p>
+# Hannes Schuler
 
-<p align="center">
-  <a href="https://github.com/Hannes-frbg">
-    <img src="https://img.shields.io/badge/GitHub-Hannes--frbg-24292e?style=flat&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="mailto:info@ewigetiomate.de">
-    <img src="https://img.shields.io/badge/Email-info%40ewigetiomate.de-111111?style=flat&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+**Systems Engineering · Homelab Infrastructure · Linux**
+
+Building, self-hosting and experimenting with infrastructure — from virtualization and storage to networking and secure service deployment.
+
+[GitHub](https://github.com/Hannes-frbg) · [Email](mailto:info@ewigetiomate.de)
 
 ---
 
-### Über mich
-System- und Infrastruktur-Entwickler mit Fokus auf Virtualisierung, Netzwerk-Automatisierung und performante Backends. Spezialisiert auf den Betrieb eigenständiger Enterprise-Umgebungen auf Basis von Proxmox VE und Linux.
+### `$ whoami`
+
+I'm interested in the engineering behind reliable infrastructure: how systems are virtualized, connected, secured and operated.
+
+My focus is on hands-on experimentation with Linux, Proxmox VE, networking, storage and self-hosted services.
+
+I prefer understanding the entire stack — from physical hardware to the services running on top of it.
+
+### `$ cat infrastructure.yml`
+
+| Layer | Technologies |
+|---|---|
+| Virtualization | Proxmox VE, KVM, QEMU |
+| Operating Systems | Linux, Windows |
+| Storage & Backup | ZFS, Proxmox Backup Server |
+| Networking | VLANs, Reverse Proxies, Cloudflare Tunnels |
+| Containers | Docker |
+| Automation & Security | Python, Node.js, TOTP |
+
+### `$ neofetch`
+
+```text
+       .--.          HANNES@HOMELAB
+      |o_o |         ----------------
+      |:_/ |         OS       Linux
+     //   \ \        Hypervisor Proxmox VE
+    (|     | )       Focus    Infrastructure
+   /'\_   _/`\       Network  Self-hosted
+   \___)=(___/       Status   Always learning
+```
+
+### `$ ./explore-projects.sh`
+
+I use my homelab as a practical environment for testing infrastructure concepts, deploying services and learning how systems behave under real workloads.
+
+- **Virtualization** — Running and managing virtual machines and isolated services.
+- **Storage & Backups** — Exploring ZFS, backup workflows and recovery strategies.
+- **Networking & Security** — Experimenting with secure access, reverse proxies and network segmentation.
+- **Self-hosting** — Deploying and maintaining services on infrastructure I control.
+
+### `$ git log --oneline`
+
+I’m working towards building a more active public development history, documenting useful experiments and publishing projects that others can learn from.
+
+Progress over hype. Working systems over buzzwords.
 
 ---
 
-### 📊 GitHub & Coding Stats
-
 <p align="center">
-  <!-- GitHub Stats (Total Contributions, Commits, etc.) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Hannes-frbg&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/Hannes-frbg/Hannes-frbg/output/github-snake-dark.svg" alt="GitHub contribution snake" />
 </p>
 
 <p align="center">
-  <!-- Top Languages Card (Tortendiagramm wie auf deinem Screenshot) -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hannes-frbg&layout=donut&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <sub>Built with curiosity. Operated hands-on.</sub>
 </p>
-
-<p align="center">
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hannes-frbg&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-### 🛠️ Homelab & Core Specs
-* **Hypervisor Layer:** Heterogenes 2-Node Proxmox-Setup (Standalone-Entkopplung für maximale Stabilität).
-* **Compute Node (PVE 1):** AMD Ryzen 5 5600GT (Performance Governor, fixierter Takt), ZFS High-Performance SSD Pool, Pelican Panel & Docker-Containerisierung.
-* **Backup & Gateway Node (PVE 2):** Intel Core i5-7500T, nativer Proxmox Backup Server (PBS) mit inkrementellen Block-Level-Backups, SHA-256 Deduplizierung und Offsite-Sync.
-* **Security & Ingress:** Cloudflare Zero Trust Tunnels kombiniert mit einem eigenem Node.js-Reverse-Proxy-Gateway (RFC 6238 TOTP-Authentifizierung).

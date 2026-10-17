@@ -1,82 +1,47 @@
+<div align="center">
+
 # Hannes Schuler
 
-<p align="center">
-  <samp>Systems Engineering · Infrastructure · App Development</samp>
-</p>
+**Systems Engineering · Homelab Architecture · Linux**
 
-<p align="center">
-  <a href="https://github.com/Hannes-frbg">GitHub</a> ·
-  <a href="mailto:info@ewigetiomate.de">Email</a>
-</p>
+Linux · Virtualization · Networking
+
+[GitHub](https://github.com/Hannes-frbg) · [Email](mailto:info@ewigetiomate.de)
+
+</div>
 
 ---
 
-### `~/about`
+## About me
 
-Systems, infrastructure and software — built hands-on.
+System- und Infrastruktur-Entwickler mit Fokus auf Virtualisierung, Netzwerk-Automatisierung und selbst gehostete Dienste. Ich beschäftige mich mit Proxmox VE, Linux, Netzwerktechnik und dem Betrieb eigener Infrastruktur – vom physischen System bis zu den darauf laufenden Services.
 
-I experiment with Linux, Proxmox VE, virtualization, networking and self-hosted services. I also explore app development for Apple platforms, including macOS, iOS and iPadOS.
-
-### `~/system`
-
-<table>
-<tr>
-<td width="50%">
-
-**Linux / Homelab**
-
-```ansi
-[32m       .--.[0m
-[32m      |[0m  [37mo_o[0m [32m|[0m
-[32m      |[0m  [37m:_/[0m [32m|[0m
-[32m     //   \ \[0m
-[32m    (|     | )[0m
-[32m   /'\_   _/`\[0m
-[32m   \___)=(___/[0m
-```
-
-</td>
-<td width="50%">
-
-**Apple / App Development**
+## `~/system`
 
 ```text
-       .-""""-.
-     .'       '.
-    /             \
-   |   macOS      |
-   |   iOS        |
-    \   iPadOS   /
-     '.         .'
-       '-.....-'
+OS           Linux
+Hypervisor   Proxmox VE
+Focus        Infrastructure
+Networking   Self-hosted
+Development  Python · Node.js
+Status       Always learning
 ```
 
-</td>
-</tr>
-</table>
+## GitHub Stats
 
-| System | Configuration |
-|:--|:--|
-| OS | Linux |
-| Hypervisor | Proxmox VE |
-| Focus | Infrastructure |
-| Networking | Self-hosted |
-| Development | Python · Node.js · Apple platforms |
-| Status | Always learning |
+<div align="center">
 
-### `~/github`
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Hannes-frbg&show_icons=true&hide=stars,prs,issues,contribs&hide_rank=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9f45b&icon_color=c9f45b&text_color=c9d1d9" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hannes-frbg&layout=compact&langs_count=6&hide_border=true&theme=github_dark&bg_color=00000000&title_color=c9f45b&text_color=c9d1d9" alt="Top programming languages" />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hannes-frbg&show_icons=true&hide=stars,prs,issues,contribs&hide_rank=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9" height="150" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hannes-frbg&layout=compact&langs_count=6&hide_border=true&theme=github_dark&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9" height="150" alt="Most used programming languages" />
-</p>
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Hannes-frbg&theme=github-dark-blue&hide_border=true&background=00000000&ring=c9f45b&fire=c9f45b&currStreakLabel=c9f45b" alt="GitHub contribution streak" />
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hannes-frbg&theme=github-dark-blue&hide_border=true&background=00000000&ring=3fb950&fire=3fb950&currStreakLabel=58a6ff" width="70%" alt="GitHub contribution streak" />
-</p>
+</div>
 
 ---
 
-<p align="center">
-  <samp>Build · Learn · Improve · Repeat</samp>
-</p>
+<div align="center">
+
+`Build` · `Learn` · `Improve` · `Repeat`
+
+</div>

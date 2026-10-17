@@ -56,5 +56,3 @@ Ich bin Hannes (<!-- AGE -->15<!-- /AGE -->) und baue in meiner Freizeit mein ei
 <div align="center">
   <img alt="github-snake" src="https://raw.githubusercontent.com/Hannes-frbg/Hannes-frbg/output/github-contribution-grid-snake-dark.svg" />
 </div>
-
-
